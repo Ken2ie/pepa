@@ -1,0 +1,109 @@
+
+/* Navigation Bar */
+nav{
+    position: absolute;
+    /* z-index: 2; */
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a img{
+    width: 150px;
+}
+
+.menu-list ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.menu-list ul li{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-list ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* Quote */
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote a{
+    padding: 10px 20px;
+    background-color: #4169E1;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    /* transition: 0.2s all ease; */
+}
+
+/* .quote a:hover{
+    background-color: black;
+} */
+
+
+/* The underline container for the menu list in the navigation bar */
+.ul{
+    width: 0%;
+    height: 5px;
+    /* background-image: -webkit-linear-gradient(black, #4169E1, 90deg); */
+    background-color: black;
+    transition: 0.2s all ease;
+}
+
+.menu-list ul li a:hover ~ .ul{
+    width: 100%;
+}
+
+.quote span i{
+    font-size: 25px;
+    padding: 20px;
+}
+
+.quote span{
+    cursor: pointer;
+}
+
+/* 
+.quote #inside{
+    width: 0%;
+    height: 100%;
+    background-color: #4169E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quote span:hover{
+    width: 100%;
+} */
+
+
+/* Active Link for Menu List in The Navigation Bar */
+
+.active > .ul{
+    width: 100%;
+}

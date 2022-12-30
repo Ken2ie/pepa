@@ -1,0 +1,184 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* background-color: #4169E1; */
+    align-items: center;
+}
+
+.login-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left Side */
+
+.left-side{
+    width: 50%;
+    height: 100vh;
+    background-color: #4169E1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+}
+
+.left-side span{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.left-side p{
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.logins{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-right: 70px;
+}
+
+.logins #alert{
+    margin: 20px;
+}
+
+.sign-in-up{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-in-up span{
+    padding: 10px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#in{
+    background-color: black;
+    color: white;
+}
+
+#up{
+    background-color: #4169E1;
+    color: white;
+}
+
+
+/* Login Form */
+
+.login-form, .signup-form form{
+    width: 100%;
+    height: auto;
+}
+
+.login-form form, .signup-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 30px;
+}
+
+.login-form form input, .signup-form form input{
+    padding: 10px 20px;
+    border: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.115);
+    border-radius: 10px;
+    margin: 10px 0;
+    transition: 0.2s all ease;
+    font-size: 1.2rem;
+}
+
+
+
+.login-form form input:focus, .signup-form form input:focus{
+    outline: 2px solid black;
+}
+
+.login-form a img{
+    width: 20px;
+}
+
+.login-form form button, .signup-form form button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 0;
+    margin: 20px 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login-form form a, .signup-form form a{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    background-color: #4169E1;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form form a span{
+    margin: 0 10px;
+}
+
+.login-form form i{
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Sign Up */
+
+.signup-form form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.signup-form {
+    margin-bottom: -70px;
+}
+
+.signup-form form input{
+    width: 100%;
+}
+
+.signup-form form label{
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 0 10px;
+    color: rgba(0, 0, 0, 0.529);
+}
+
+.flex{
+    display: flex;
+}
+
+.flex input{
+    margin-right: 10px;
+}

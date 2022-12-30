@@ -1,0 +1,56 @@
+<div class="component-for-home">
+    <div class="container">
+
+        <!-- Hero -->
+        <div class="home">
+            <div class="home-container">
+                <div class="view">
+                   <div class="view-container">
+                    <h1>Easy Access, easy database, easy clock-In.</h1>
+                    <p>An efficient way to always be on time <br>
+                        A fast and reliable device that works smart without hassle, prompting you to always be on time conscious.</p>
+                    <a [routerLink]="['product']">View Product</a>
+                   </div>
+                </div>
+                <div class="picture">
+                    <div class="picture-container">
+                        <img src="assets/First Model Rend 3.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Link to Play Video -->
+            <div class="link">
+                <a id="play" [routerLink] = "['product']"><a >Play Product Video </a><i class='bx bx-play bx-flip-vertical' ></i></a>
+            </div>
+        </div>
+        
+        <!-- What it is -->
+
+        <!-- For These companies -->
+        
+        <div class="for">
+            <div class="for-container">
+                <div class="span"><span>For places like:</span><!--<p>PePa Tech can be used anywhere in any industry, for clock-In and people management database system.</p>--></div>
+                
+                <div class="places">
+                    <a [routerLink]="" class="school place">
+                        <h2>Educational Sector</h2>
+                        <p>Improve teaching and learning schedules, improves punctuality of both students and teachers/lecturers, and availability or validation of class being held.</p>
+                    </a>
+                    <a [routerLink]="" class="comp place">
+                        <h2>Company Sector</h2>
+                        <p>Creating awareness among staff for an effective workforce.</p>
+                    </a>
+                    <a  class="industries place">
+                        <h2>Industrial Sector</h2>
+                        <p>Maintaining excellent workflow by keeping track of the workers and machinery.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+            
+    </div>
+</div>
+
+<router-outlet></router-outlet>

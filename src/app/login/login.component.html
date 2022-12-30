@@ -1,0 +1,21 @@
+<div class="login">
+    <div class="login-container">
+        <div class="left-side">
+            <img src="" alt="">
+        </div>
+        <div class="logins">
+            <div class="sign-in-up">
+                <a id="in">Sign In</a>
+                <a id="up">Sign Up</a>
+            </div>
+            <span id="alert">Plese choose a sector to either <b id="signin">sign in</b> or <b id="signup">sign up (Register)</b></span>
+            <div class="sectors">
+                <a id="education" [routerLink] = "['educational']"><span id="head">Educational Sector</span> <span>Sign In or Sign Up </span></a>
+                <a id="company"><span id="head">Company Sector</span> <span>Sign In or Sign Up </span></a>
+                <a id="industrial"><span id="head">Industrial Sector</span> <span>Sign In or Sign Up </span></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<router-outlet></router-outlet>

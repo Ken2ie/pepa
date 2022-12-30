@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Login or Sign Up</title>
+
+    <!-- BoxIcon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Firebase -->
+    <script src="./js/edu.js"></script>
+    <!-- <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyA1SF37Kr9KrWFKnb7_nKH8vAlJDyo41zo",
+          authDomain: "pepa-tech.firebaseapp.com",
+          projectId: "pepa-tech",
+          storageBucket: "pepa-tech.appspot.com",
+          messagingSenderId: "1509568221",
+          appId: "1:1509568221:web:07dca41cbb7e9fa4847534",
+          measurementId: "G-BLVGH1MKQF"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script> -->
+</head>
+<body>
+    
+    <div class="login">
+        <div class="login-container">
+            <div class="left-side">
+                <span>Educational Sector</span>
+                <p>From all levels of education, from primary to university.</p>
+            </div>
+            <div class="logins">
+                <div class="sign-in-up">
+                    <span onclick="signin()" id="in">Sign In</span>
+                    <span onclick="signup()" id="up">Sign Up</span>
+                </div>
+                <div class="login-form" >
+                    <form action="">
+                        <!-- E-mail -->
+                        <input type="email" placeholder="E-mail" id="email" >
+                        <!-- <label for="email" placeholder="E-mail"></label> -->
+                <!-- Password -->
+                <input type="password" placeholder="Password" id="password">
+                <!-- <label for="password" placeholder="Password"></label> -->
+                
+                <!-- Submit Button -->
+                <button  type="submit" onclick="login()" >Login</button>
+                <a><!--<img src="https://companieslogo.com/img/orig/GOOG-0ed88f7c.png?t=1633218227" alt="">--> <i class='bx bxl-google'></i> <span>Login with Google</span></a>
+            </form>
+        </div>
+            <div class="signup-form" >
+               <form action="">
+
+                   <label for="">Personal Information</label>
+                   <div class="flex">
+                       
+                       <!-- First name -->
+                       <input type="text" placeholder="First Name" style="margin-right: 10px;">
+                       
+                       <!-- Last Name -->
+                       <input type="text" placeholder="Last Name">
+                       
+                    </div>
+                    
+                    <!-- Educational Name -->
+                    
+                    <label for="">Educational Information</label>
+                    <div class="flex">
+                        <input type="text" placeholder="Institution Name" style="margin-right: 10px;">
+                        
+                        <!-- ID -->
+                        <input type="text" placeholder="ID Number">
+                        
+                    </div>
+                    
+                    
+                <!-- E-mail -->
+                <label for="">Setting Up Account</label>
+                <input type="email" placeholder="E-mail" id="email" >
+                <!-- <label for="email" placeholder="E-mail"></label> -->
+                
+                
+                <!-- Password -->
+                <input type="password" placeholder="Password" id="password">
+                <!-- <label for="password" placeholder="Password"></label> -->
+                
+                <!-- Submit Button -->
+                <button type="submit" onclick="register()" >Register</button>
+                <!-- <a><img src="https://companieslogo.com/img/orig/GOOG-0ed88f7c.png?t=1633218227" alt=""> <i class='bx bxl-google'></i> <span>Sign Up with Google</span></a> -->
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+
+</body>
+</html>

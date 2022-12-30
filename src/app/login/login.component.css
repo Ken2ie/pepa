@@ -1,0 +1,118 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* background-color: #4169E1; */
+    align-items: center;
+}
+
+.login-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side{
+    width: 50%;
+    height: 100vh;
+    background-color: #4169E1;
+}
+
+.logins{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin-right: 70px;
+}
+
+.logins #alert{
+    margin: 20px;
+}
+
+.sign-in-up{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-in-up a{
+    padding: 10px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#in{
+    background-color: black;
+    color: white;
+}
+
+#up{
+    background-color: #4169E1;
+    color: white;
+}
+
+.sectors{
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectors a{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.sectors a span{
+    font-weight: 300;
+}
+
+#education{
+    background-color: #4169E1;
+    color: white;
+}
+
+.sectors a #education:hover ~ .left-side{
+    background-color: #4169E1;
+}
+
+#company{
+    background-color: black;
+    color: white;
+}
+
+#company:hover ~ .left-side{
+    background-color: black;
+}
+
+#industrial{
+    background-color: #FFD600;
+    color: black;
+}
+
+#industrial:hover ~ .left-side{
+    background-color: #FFD600;
+}
+
+#head{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
